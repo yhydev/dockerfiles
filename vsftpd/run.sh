@@ -25,4 +25,5 @@ then
 
 
 fi;
-service supervisor start
+#service supervisor start
+supervisord -n
